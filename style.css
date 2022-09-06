@@ -641,12 +641,21 @@ button:hover{
     .top{
         background-color: transparent;
     }
+    .sec2bp{
+        padding-top: 115px;
+        line-height: 1.85;
+        /* padding-bottom: 160px; */
+    }
+    .location{
+        margin-top: 50px;
+        margin-left: -44px;
+    }
     .sec5b{
         top: 40px;
         left: 50px;
     }
     .sec5c{
-        left: 100px;
+        left: 40px;
     }
     .sec5d{
         top: 33px;
