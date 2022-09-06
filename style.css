@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    background-image: url(/images/coffman.jpeg);
+    background-image: url(./images/coffman.jpeg);
     height: 120vh;
     background-position: center;
     background-size: cover;
