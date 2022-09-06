@@ -276,6 +276,9 @@ button:hover{
     font-family: 'Alegreya Sans', sans-serif;
     margin-bottom: 20px;
 }
+.sec2bp{
+    padding-top: 115px;
+}
 .sec2b h2{
     font-size: 32px;
     color: #373a3c;
