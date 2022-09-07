@@ -708,7 +708,11 @@ button:hover{
         height: 50vh;
     }
     #rtop{
-        padding-right: 8rem;
+        padding-right: 5rem;
+        padding-top: 3rem;
+    }
+    #home{
+        margin-top: 320px;
     }
     .topi{
         background-color: #846835bd;
