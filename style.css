@@ -6,6 +6,15 @@
 
 body{
     margin: 0;
+    animation-name: mask;
+    animation-duration: 2s;
+}
+
+@keyframes mask {
+    0% {opacity: 0;}
+    25% {opacity: 0.3;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
 }
 
 .header{
@@ -705,14 +714,14 @@ button:hover{
 
 @media screen and (max-width:992px) and (min-width:768px) {
     .header{
-        height: 50vh;
+        height: 120vh;
     }
     #rtop{
         padding-right: 5rem;
         padding-top: 3rem;
     }
     .contact{
-        margin-top: 320px;
+        margin-top: 180px;
     }
     .topi{
         background-color: #846835bd;
@@ -781,7 +790,10 @@ button:hover{
 
 @media screen and (max-width:768px) and (min-width:600px) {
     .header{
-        height: 45vh;
+        height: 110vh;
+    }
+    .up{
+        right: 42px;
     }
     .top{
         display: flex;
@@ -789,12 +801,13 @@ button:hover{
         padding: 0rem;
     }
     #rtop{
-       padding-left: 3rem;
+       padding-left: 7rem;
+       clear: both;
     }
     .sec2b{
         /* display: flex; */
         flex-direction: column;
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
     .sec2 img{
         width: 100%;
@@ -838,9 +851,23 @@ button:hover{
         margin: auto;
         width: 50%;
     }
+    .sec4{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec4b{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .location{
+        padding-left: 0px;
+    }
+    .img4{
+        width: 100%;
+    }
     .sec5a,.sec5b,.sec5c,.sec5d{
         width: 80%;
-        left: 0px;
+        left: -10px;
     }
     .sec5a{
         padding-left: 2rem;
@@ -850,7 +877,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width:600px)  {
+/* @media screen and (max-width:600px)  {
     .header{
         height: 45vh;
     }
@@ -917,4 +944,4 @@ button:hover{
     .sec5c{
         top: -15px;
     }
-}
+} */
