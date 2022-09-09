@@ -11,38 +11,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../../css/bootstrap.min.css"> -->
     <script src="https://kit.fontawesome.com/5250e3c5f3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-   
-
-    <div class="header" id="dd">
-        <div class="top">
-            <img src="./images/WhatsApp Image 2022-07-06 at 6.00.12 PM (2).jpeg" alt="">
-            <ul id="rtop">
-                <li><a class="topi" href="#home">Home</a></li>
-                <li><a class="topi" href="#about">About</a></li>
-                <li><a class="topi" href="#ouroffer">Ouroffer</a></li>
-                <li><a class="topi" href="#gallery">Gallery</a></li>
-                <li><a class="topi" href="#">Blog</a>
-                    <div class="subcon">
-                        <div class="drop">
-                            <ul>
-                                <li><a href="#">Blog Index</a></li>
-                                <li><a href="#">Simple Post</a></li>
-                                <li><a href="#">Gallery Post</a></li>
-                                <li><a href="#">Basic Post</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li><a class="topi" href="#">Contact</a></li>
+    <nav class="navbar navbar-white fs-5 py-4  position-fixed w-100 navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class=" w-50" src="./images/333-removebg-preview.png" alt="">
+          </a>
+          <button class="bg-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" ulParent collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link topi text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topi text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topi text-white" href="#">Ouroffer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link topi text-white" href="#">Gallery</a>
+                  </li>
+                 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle topi text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class=" dropdown-item" href="#">Blog Index</a></li>
+                    <li><a class=" dropdown-item" href="#">Simple Post</a></li>
+                    <li><a class=" dropdown-item" href="#">Gallery Post</a></li>
+                    <li><a class=" dropdown-item" href="#">Basic Post</a></li>
+                </ul>
+                </ul>
+              </li>
             </ul>
-        </div>>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="header" id="dd">
+       
         <div id="home" class="contact">
             <h2 class="h21">Welcome to</h2>
             <h1 class="h1">Family Bakery</h1>
@@ -52,6 +71,7 @@
             <button class="btn2">contact us</button>
         </div>
     </div>
+    
     <div id="about" class="sec1">
         <img class="img1" src="./images/2.jpeg">
         <div class="sec1b">
@@ -86,7 +106,7 @@
         
         <div class="sec2bp">
             
-            <h2>Our Location</h2>
+            <h2 class=" pe-5" >Our Location</h2>
             
             <p>We have been operating for over 30 years and are Members of The Federation of<br>Master Builders. We work
                 on projects big and small from small residential extensions<br>to full house. We are so happy with this
@@ -256,7 +276,7 @@
     </a>
     </div>
 
-    <!-- <script src="../../js/bootstrap.bundle.min.js"></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
