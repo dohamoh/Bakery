@@ -21,6 +21,13 @@ body{
 nav{
     background-color: transparent !important;
 }
+nav button{
+    border: none !important;
+    background-color: rgba(108, 106, 103, 0.788) !important;
+}
+nav button span svg{
+    color: white !important;
+}
 
 .header{
     background-image: url(./images/coffman.jpeg);
@@ -726,7 +733,7 @@ button:hover{
 }
 @media screen and (max-width:992px) and (min-width:768px) {
     nav{
-        background-color: rgb(129, 100, 67) !important;
+        background-color: rgba(108, 106, 103, 0.788) !important;
         z-index: 66;
     }
     .header{
@@ -806,7 +813,7 @@ button:hover{
 }
 @media screen and (max-width:768px) and (min-width:600px) {
     nav{
-        background-color: rgb(129, 100, 67) !important;
+        background-color: rgba(108, 106, 103, 0.788) !important;
         z-index: 66;
     }
     .header{
@@ -893,8 +900,18 @@ button:hover{
     }
 }
 @media screen and (max-width:600px) {
+    nav{
+        background-color: rgba(108, 106, 103, 0.788) !important;
+        z-index: 66;
+    }
     .header{
         height: 110vh;
+    }
+    .contact{
+        width: 100%;
+        padding-top: 9rem;
+        padding-left: 0;
+        margin-left: 0;
     }
     .top img{
         width: 200px;
