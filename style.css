@@ -904,8 +904,11 @@ button:hover{
         background-color: rgba(108, 106, 103, 0.788) !important;
         z-index: 66;
     }
-    .header{
-        height: 110vh;
+    .nav2{
+        width: 75%;
+    }
+    .header {
+        height: 75vh;
     }
     .contact{
         width: 100%;
@@ -913,6 +916,9 @@ button:hover{
         padding-left: 0;
         margin-left: 0;
     }
+    /* .p1{
+        padding: 0px 10px 0px 30px;
+    } */
     .top img{
         width: 200px;
         margin-left: 0px;
