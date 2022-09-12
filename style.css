@@ -23,10 +23,12 @@ nav{
 }
 nav button{
     border: none !important;
-    background-color: rgba(108, 106, 103, 0.788) !important;
+    width: 15%;
+    background-color: transparent !important;
 }
-nav button span svg{
-    color: white !important;
+nav button span{
+    color: white;
+    font-size: xx-large;
 }
 
 .header{
@@ -655,7 +657,14 @@ button:hover{
 .up:hover .fa-chevron-up{
     color: white;
 }
-
+/* ========================================================== */
+.nav-colored { 
+    background-color:black !important; 
+}
+.nav-transparent { 
+    background-color:transparent;
+}
+/* -=========================================================== */
 @media screen and (min-width:1200px) {
     .ulParent{
         display: flex;
@@ -901,7 +910,7 @@ button:hover{
 }
 @media screen and (max-width:600px) {
     nav{
-        background-color: rgba(108, 106, 103, 0.788) !important;
+        padding: 20px;
         z-index: 66;
     }
     .nav2{
@@ -912,13 +921,10 @@ button:hover{
     }
     .contact{
         width: 100%;
-        padding-top: 9rem;
+        padding-top: 3rem;
         padding-left: 0;
         margin-left: 0;
     }
-    /* .p1{
-        padding: 0px 10px 0px 30px;
-    } */
     .top img{
         width: 200px;
         margin-left: 0px;
@@ -947,6 +953,7 @@ button:hover{
     }
     .img2{
         width: 100%;
+        padding: 64px 5px 70px;
     }
     .sec3b{
         display: block;
@@ -960,6 +967,7 @@ button:hover{
     .sec4b{
         clear: both;
         width: 100%;
+        padding-left: 0.5rem;
     }
     .sec4b h4{
         font-size: 32px;
@@ -967,10 +975,10 @@ button:hover{
     }
     .img4{
         width: 100%;
-        padding: 20px 40px 70px;
+        padding: 0px 40px 70px;
     }
     .location{
-        margin-left: -44px;
+        margin-left: -30px;
     }
     .sec5a,.sec5b,.sec5c,.sec5d{
         display: block;
