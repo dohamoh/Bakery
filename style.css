@@ -666,6 +666,10 @@ button:hover{
 }
 /* -=========================================================== */
 @media screen and (min-width:1200px) {
+    nav{
+        padding: 20px;
+        z-index: 66;
+    }
     .ulParent{
         display: flex;
         justify-content: end;
@@ -698,6 +702,10 @@ button:hover{
     }
 }
 @media screen and (min-width:992px) and (max-width:1200px)  {
+    nav{
+        padding: 20px;
+        z-index: 66;
+    }
     .ulParent{
         display: flex;
         justify-content: end;
@@ -741,6 +749,10 @@ button:hover{
     }
 }
 @media screen and (max-width:992px) and (min-width:768px) {
+    nav{
+        padding: 20px;
+        z-index: 66;
+    }
     nav{
         background-color: rgba(108, 106, 103, 0.788) !important;
         z-index: 66;
@@ -821,6 +833,10 @@ button:hover{
     }
 }
 @media screen and (max-width:768px) and (min-width:600px) {
+    nav{
+        padding: 20px;
+        z-index: 66;
+    }
     nav{
         background-color: rgba(108, 106, 103, 0.788) !important;
         z-index: 66;
