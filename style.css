@@ -753,10 +753,6 @@ button:hover{
         padding: 20px;
         z-index: 66;
     }
-    nav{
-        background-color: rgba(108, 106, 103, 0.788) !important;
-        z-index: 66;
-    }
     .header{
         height: 120vh;
     }
